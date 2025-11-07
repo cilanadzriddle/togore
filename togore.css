@@ -1,0 +1,36 @@
+.title {
+    color: white;
+    background: blue;
+    border: white;
+    padding: 1 1;
+    margin: 2 2;
+    text-align: center;
+}
+
+.work {
+    color: white;
+    background: red;
+    border: white;
+    padding: 1 1;
+    margin: 2 2;
+}
+
+.rest {
+    color: red;
+    background: white;
+    border: red;
+    padding: 1 1;
+    margin: 2 2;
+}
+
+#pomodoro_status {
+    text-align: center;
+}
+
+Digits {
+    text-align: center;
+}
+
+#pause_status {
+    margin: 2 2;
+}
