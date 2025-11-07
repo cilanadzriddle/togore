@@ -7,7 +7,7 @@ import time
 import argparse
 import subprocess
 
-parser = argparse.ArgumentParser(description='No description')
+parser = argparse.ArgumentParser(description='My first ever coding project!')
 parser.add_argument('-t', '--title', type=str, help='Title of task')
 parser.add_argument('-r', '--workhours', type=int, default=0, help='Work hours for task')
 parser.add_argument('-m', '--workminutes', type=int, default=0, help='Work minutes for task')
