@@ -7,7 +7,7 @@ Use `python` to compile the application. `togore` uses the `argparse` library, s
 ## Arguments
 
 | Flag | Description              |
-|------+--------------------------|
+|---------------------------------|
 | -s   | Work seconds             |
 | -m   | Work minutes             |
 | -r   | Work hours               |
