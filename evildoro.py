@@ -32,7 +32,7 @@ if(total_cycles < 0):
     total_cycles = 0
 
 class Timer(Static):
-    CSS_PATH = "togore.css"
+    CSS_PATH = "evildoro.css"
 
     is_paused = reactive(False)
     work_time = reactive(total_work_time)
@@ -99,8 +99,8 @@ class Timer(Static):
     def on_mount(self) -> None:
         self.tick_timer = self.set_interval(1, self.tick)
 
-class togore(App):
-    CSS_PATH = "togore.css"
+class evildoro(App):
+    CSS_PATH = "evildoro.css"
     is_paused = reactive("")
     paused = reactive(False)
 
@@ -135,5 +135,5 @@ class togore(App):
         self.title = "Countdown Timer"
 
 if __name__ == "__main__":
-    app = togore()
+    app = evildoro()
     app.run()
